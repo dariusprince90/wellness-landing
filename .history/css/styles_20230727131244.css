@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+
+
+body,
+footer,
+header {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+footer,
+header,
+.s-012-text,
+.s-026-text {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.s-020-text,
+.s-029-text {
+    background-color: #F3772A;
+    color: #ffffff;
+    text-align: left;
+    padding: 2vw;
+}
+
+.s-017-text,
+.s-019-text,
+.s-022-text,
+.s-024-text,
+.s-027-text,
+.s-030-text {
+    background-color: #CAC7C6;
+    color: #ffffff;
+    text-align: left;
+    padding: 2vw;
+}
+
+header {
+    padding: 1vw;
+}
+
+footer {
+    bottom: 0;
+    position: static;
+    padding: 2vw;
+}
+
+ul li,
+li {
+    text-decoration: none;
+    display: inline;
+    padding: 5vw;
+}
+
+section {
+    padding: 2vw;
+}
+
+.soclmdIcons {
+    font-size: 1.8vw;
+    padding: 0.5vw;
+
+}
+
+#SocMedSection {
+    margin: 5vw;
+}
+
+/*
+----------------------------------------------------------------
+                Font styles     
+----------------------------------------------------------------
+*/
+
+
+.emphasis_Orange {
+
+}
+
+
+
+/*
+----------------------------------------------------------------
+                Section styles for landing page          
+----------------------------------------------------------------
+*/
+
+.s-001-text {
+    background-image: url("../img/001/Main_Coffee_Img.png");
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5vw;
+}
+
+.s-002-text {
+    text-emphasis: none;
+}
+
+.s-003-text {
+    background-image: url("../img/003/Creamed_Coffee_Background.png");
+    height: 44vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5vw;
+    color: #ffffff;
+}
+
+.s-004-text {
+    text-emphasis: none;
+}
+
+.s-005-text {
+    background-image: url("../img/005/Iced_Coffee_Background.png");
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s-006-text {
+    text-emphasis: none;
+}
+
+
+.s-007-text {
+    background-image: url("../img/007/Dave_Background.png");
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.s-008-text {
+    text-emphasis: none;
+}
+
+.s-009-text {
+    background-image: url("../img/009/collage.png");
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.s-010-text {
+    text-emphasis: none;
+}
+
+.s-011-text {
+    background-image: url("../img/011/Phil_background.png");
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.s-012-text {
+    text-emphasis: none;
+}
+
+.s-013-text {
+    text-emphasis: none;
+}
+
+.s-014-text {
+    text-emphasis: none;
+}
+
+.s-015-text {
+    background-image: url("../img/015/FW_black_Background.png");
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #ffffff;
+}
+
+.s-016-text {
+    text-emphasis: none;
+}
+
+
+.s-017-text {
+    text-emphasis: none;
+}
+
+.s-018-text {
+    text-emphasis: none;
+}
+
+.s-019-text {
+    text-emphasis: none;
+}
+
+.s-020-text {
+    text-emphasis: none;
+}
+
+.s-021-text {
+    text-emphasis: none;
+}
+
+
+.s-022-text {
+    text-emphasis: none;
+}
+
+.s-023-text {
+    text-emphasis: none;
+}
+
+.s-024-text {
+    text-emphasis: none;
+}
+
+.s-025-text {
+    text-emphasis: none;
+}
+
+.s-026-text {
+    text-emphasis: none;
+}
+
+
+.s-027-text {
+    text-emphasis: none;
+}
+
+.s-028-text {
+    text-emphasis: none;
+}
+
+.s-029-text {
+    text-emphasis: none;
+}
+
+.s-030-text {
+    text-emphasis: none;
+}
+
+.s-00#-text {
+    text-emphasis: none;
+}
+
+
+
+.s-00#-text {
+    text-emphasis: none;
+}
+
+.s-00#-text {
+    text-emphasis: none;
+}
