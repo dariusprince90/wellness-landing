@@ -47,7 +47,7 @@ a:hover {
 }
 
 .hero-section .hero-container .fix-width {
-    max-width: 1420px;
+    max-width: 1290px;
     margin-inline: auto;
 }
 
@@ -65,7 +65,7 @@ a:hover {
 
 .hero-section h1 {
     font-weight: 700;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     margin-bottom: 25px;
 }
 
@@ -81,6 +81,7 @@ a:hover {
 .hero-section .features-section .features-card img {
     width: 50px;
     height: 50px;
+    margin-bottom: 20px;
 }
 
 .quote-section {
@@ -389,9 +390,8 @@ a:hover {
     bottom: 15px;
     border-radius: 5px;
     background: #000;
-    padding: 15px;
+    padding: 15px 20px;
     text-align: right;
-    width: 50%;
 }
 .philmickelson-img-text h3{
     color: #F3772A;
@@ -427,7 +427,6 @@ a:hover {
 
 .philmickelson-about{
     background: url(../images/philmickelson-about.png) no-repeat left top #fff;
-    background-size: auto 100%;
     padding: 50px 0;
 }
 .philmickelson-about h1{
@@ -452,6 +451,10 @@ a:hover {
     color: #fff;
 }
 
+.imgleftmargin{
+    width: auto!important;
+    margin-left: -40px;
+}
 
 .visionbg{
     background: url(../images/bg4.png) no-repeat;
@@ -459,7 +462,7 @@ a:hover {
     padding: 80px 0;
 }
 .visionbg h1{
-    font-size: 40px;
+    font-size: 49px;
     color: #fff;
     font-weight: 700;
     margin: 0px 0 30px 0;
@@ -572,6 +575,7 @@ a:hover {
     font-size: 24px;
     font-weight: 700;
     padding: 12px 0;
+    position: relative;
 }
 .purchasebox-content{
     padding: 20px;
@@ -670,7 +674,6 @@ a:hover {
 .aboutproductrow{
     background: #f3772a;
     padding: 50px 0;
-    margin-top: 50px;
 }
 .aboutproductrow-img{
     margin-top: -110px;
@@ -680,9 +683,10 @@ a:hover {
 }
 .aboutproductrow-text p{
     color: #fff;
+    font-size: 29px;
 }
 .aboutproductrow-text h1{
-    font-size: 40px;
+    font-size: 39px;
     color: #fff;
     font-weight: 700;
     margin: 0;
@@ -1048,7 +1052,47 @@ a:hover {
     font-weight: 400!important;
 }
 
+.bestvaluelabel {
+    position: absolute;
+    right: 10px;
+    top: -25px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 145px;
+    background: #000;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 5px;
+}
 
+.radiobtn .form-check-input{
+    border: 2px solid #000;
+    box-shadow: none;
+}
+.radiobtn .form-check-input:checked {
+    background-color: #F3772A;
+    border-color: #F3772A;
+}
+
+.productimgbottom{
+    height: 100%;
+}
+.productimgbottom img{
+    height: 100%;
+    object-fit: cover;
+}
+.productimgbottombg p{
+    font-size: 20px;
+}
+.productimgbottom{
+    margin-left: -10%;
+}
+
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1180px;
+}
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1140px) {
     .relentlessdedication-logos img{max-width: 100px;}
