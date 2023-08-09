@@ -140,7 +140,7 @@ a:hover {
     background: url(../images/60c69155cf8b0f4b066079bfde101ef7.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -170px -320px;
+    background-position: -140px -240px;
     z-index: -1;
 
 }
@@ -160,6 +160,7 @@ a:hover {
 
 .section-three {
     padding-block: 60px 100px;
+    background: #f7f7f7;
 }
 
 .section-three .sec-three-text {
@@ -179,7 +180,7 @@ a:hover {
 
 .bg-image-section-2 {
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 17%, rgba(0, 0, 0, 0.9080459770114943) 54%, rgba(0, 0, 0, 0.6896551724137931) 68%, rgba(0, 0, 0, 0) 100%);
-    padding-block: 100px;
+    padding-block: 50px;
     position: relative;
 }
 
@@ -218,12 +219,11 @@ a:hover {
 .bg-image-section-2 .bg-sec-img-2 .img-left-sec {
     position: absolute;
     width: 100%;
-    height: calc(100% + 240px);
+    height: calc(100% + 210px);
     object-fit: cover;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #fff;
 }
 
 .bg-image-section-2 .bg-sec-img-2 .img-left-sec h4 {
@@ -234,6 +234,7 @@ a:hover {
 
 .bg-image-section-2 .bg-sec-img-2 .img-left-sec img {
     width: 100%;
+    height: 100%;
 }
 
 .quote-section-two {
@@ -1037,4 +1038,60 @@ a:hover {
 .thankyoutext a{
     color: #F3772A;
     text-decoration: underline;
+}
+
+.topquote .quote-bold{
+    font-weight: 700!important;
+    font-style: normal!important;
+}
+.topquote .quote-text{
+    font-weight: 400!important;
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+    .relentlessdedication-logos img{max-width: 100px;}
+    .relentlessdedication-logos a{margin: 10px 15px;}
+    .storybox-img {margin-top: 0;}
+    .philmickelson-text{padding-top: 25px;}
+    .astoundingbox h4{font-size: 19px;}
+    .mycoffeebtn{font-size: 14px;}
+    .hero-section h1{font-size: 25px;}
+    .hero-section .hero-container .banner-section{padding: 50px 0px 100px 20px;}
+    .checkoutlinks ul li{padding: 0 15px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .relentlessdedication-logos img{max-width: 100px;}
+    .relentlessdedication-logos a{margin: 10px 15px;}
+    .storybox-img {margin-top: 0;}
+    .philmickelson-text{padding-top: 25px;}
+    .astoundingbox h4{font-size: 19px;}
+    .mycoffeebtn{font-size: 14px;}
+    .hero-section h1{font-size: 25px;}
+    .hero-section .hero-container .banner-section{padding: 50px 0px 100px 20px;}
+    .checkoutlinks ul li{padding: 0 15px;}
+    .thankyoutext h1{font-size: 40px;}
+}
+@media only screen and (max-width: 767px) {
+    .hero-section h1{font-size: 15px; margin-bottom: 10px;}
+    .hero-section p{font-size: 13px; line-height: 15px;}
+    .hero-section .hero-container .banner-section{padding: 20px 10px 110px 10px;}
+    .topbar-home p{font-size: 14px;}
+    .quote-section .quote-block{padding: 30px 50px;}
+    .quote-section .quote-block .quote-bold{font-size: 20px;}
+    .quote-section .quote-block .quote-text{font-size: 15px;}
+    .bg-image-section-2 .bg-sec-img-2 .img-left-sec img{height: auto;}
+    .bg-image-section-2 .bg-sec-img-2 .img-left-sec{position: inherit; height: auto;}
+    .quote-section-two .quote-block{padding: 30px 50px;}
+    .quote-section-two .quote-block .quote-bold{font-size: 20px;}
+    .mycoffeebtn{font-size: 14px;}
+    .percoachbg h1{line-height: 28px; font-size: 14px;}
+    .philmickelson-img-text{width: 80%;}
+    .philmickelson-text{padding-top: 25px;}
+    .storybox-img {margin-top: 0;}
+    .relentlessdedication-logos img{max-width: 100px;}
+    .relentlessdedication-logos a{margin: 10px 15px;}
+    .checkoutlinks::after{display: none;}
+    .thankyoutext h1{font-size: 40px;}
 }
