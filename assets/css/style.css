@@ -151,6 +151,7 @@ a:hover {
     text-align: center;
     color: #fff;
     font-style: italic;
+    font-weight: 600;
 }
 
 .section-three h2 {
@@ -246,7 +247,7 @@ a:hover {
 .quote-section-two .quote-block {
     background-color: #000;
     color: #fff;
-    padding: 30px 80px;
+    padding: 30px 100px;
     text-align: center;
 }
 
@@ -276,7 +277,7 @@ a:hover {
     display: block;
     border-radius: 5px;
     background-color: #f3772a;
-    padding: 12px 15px;
+    padding: 18px 15px;
     font-weight: 600;
     font-style: italic;
     color: #fff;
@@ -310,6 +311,7 @@ a:hover {
 }
 .percoachbg h4{
     font-weight: 700;
+    text-transform: uppercase;
 }
 .percoachbg a{
     color: #000;
@@ -1138,4 +1140,10 @@ a:hover {
     .relentlessdedication-logos a{margin: 10px 15px;}
     .checkoutlinks::after{display: none;}
     .thankyoutext h1{font-size: 40px;}
+    .philmickelson-img-text{bottom: 0; right: 0; width: 100%!important; margin-top: 20px;}
+    .percoachbg{padding-bottom: 230px; background-size: 100% auto; background-position: bottom;}
+    .philmickelson-about{background: #f3f4f6;}
+    .imgleftmargin{width: 100%!important; margin-left: 0;}
+    .visionbg{background-size: cover; background-position: center;}
+    .purchasebox{margin: 15px 0;}
 }
