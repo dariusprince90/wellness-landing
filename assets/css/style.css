@@ -1120,9 +1120,9 @@ a:hover {
     .thankyoutext h1{font-size: 40px;}
 }
 @media only screen and (max-width: 767px) {
-    .hero-section h1{font-size: 15px; margin-bottom: 10px;}
-    .hero-section p{font-size: 13px; line-height: 15px;}
-    .hero-section .hero-container .banner-section{padding: 50px 10px 160px 10px;}
+    .hero-section h1{font-size: 18px; margin-bottom: 20px; max-width: 80%;}
+    .hero-section p{font-size: 15px; line-height: 15px; max-width: 60%;}
+    .hero-section .hero-container .banner-section{padding: 50px 10px 160px 10px; background: linear-gradient(117deg, #F7F7F7 0%, #f7f7f7b3 0%, #f7f7f700 0%), url(../images/banner-img.png); background-position-x: 10%; background-size: cover; background-repeat: no-repeat; }
     .topbar-home p{font-size: 14px;}
     .quote-section .quote-block{padding: 30px 50px;}
     .quote-section .quote-block .quote-bold{font-size: 20px;}
@@ -1146,7 +1146,6 @@ a:hover {
     .imgleftmargin{width: 100%!important; margin-left: 0;}
     .visionbg{background-size: cover; background-position: center;}
     .purchasebox{margin: 15px 0;}
-    .hero-section .hero-container .banner-section{background: linear-gradient(117deg, #F7F7F7 0%, #f7f7f7b3 0%, #f7f7f700 0%), url(../images/banner-img.png); background-position: center; background-size: cover;}
     p{font-size: 15px;}
     .bg-image-section p{font-size: 14px;}
     .bg-image-section{padding-block: 35px;}
