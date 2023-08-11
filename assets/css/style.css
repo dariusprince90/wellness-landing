@@ -76,9 +76,6 @@ a:hover {
     box-shadow: 0px 10px 30px 0px #0000001a;
     border-radius: 3px;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .hero-section .features-section .features-card img {
@@ -1093,6 +1090,11 @@ a:hover {
     margin-left: -10%;
 }
 
+
+.philmickelson-img-mob{
+    display: none;
+}
+
 @media (min-width: 1400px){
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1180px;
@@ -1109,6 +1111,19 @@ a:hover {
     .hero-section h1{font-size: 25px;}
     .hero-section .hero-container .banner-section{padding: 50px 0px 100px 20px;}
     .checkoutlinks ul li{padding: 0 15px;}
+    .thankyoutext h1{font-size: 40px;}
+    .banner-section p{font-size: 20px;}
+    .features-card p{font-size: 15px;}
+    .philmickelson-img-text{width: auto!important; margin-top: 30px; display: inline-block;}
+    .percoachbg{background-size: cover; background-position: left;}
+    .philmickelson-about{background-size: cover; background-position: -360px 0;}
+    .imgleftmargin{width: 100%!important; margin: 0!important;}
+    .visionbg{background-size: cover; background-position: -890px 0;}
+    .aboutproductrow-img{margin-top: 0;}
+    .aboutproductrow-text h1{font-size: 23px;}
+    .nutritionimg{display: flex; flex-direction: column; justify-content: end; height: 100%;}
+    .productimgbottombg .aboutproductrow-text h1{font-size: 15px!important;}
+    .productimgbottombg p {font-size: 13px;}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .relentlessdedication-logos img{max-width: 100px;}
@@ -1121,11 +1136,26 @@ a:hover {
     .hero-section .hero-container .banner-section{padding: 50px 0px 100px 20px;}
     .checkoutlinks ul li{padding: 0 15px;}
     .thankyoutext h1{font-size: 40px;}
+    .banner-section p{font-size: 20px;}
+    .features-card p{font-size: 15px;}
+    .philmickelson-img-text{width: auto!important; margin-top: 30px; display: inline-block;}
+    .percoachbg{background-size: cover; background-position: left;}
+    .philmickelson-about{background-size: cover; background-position: left;}
+    .imgleftmargin{width: 100%!important; margin: 0!important;}
+    .visionbg{background-size: cover; background-position: -700px 0;}
+    .aboutproductrow-img{margin-top: 0;}
+    .aboutproductrow-text h1{font-size: 23px;}
+    .nutritionimg{display: flex; flex-direction: column; justify-content: end; height: 100%;}
+    .productimgbottombg .aboutproductrow-text h1{font-size: 15px!important;}
+    .productimgbottombg p {font-size: 13px;}
+    .checkoutvid h1{font-size: 28px;}
+    .perfectcomplementbg-text h1{font-size: 28px;}
+    .testimonialbg h1, .badstuffbg h1, .purchasetable h1{font-size: 28px;}
 }
 @media only screen and (max-width: 767px) {
-    .hero-section h1{font-size: 18px; margin-bottom: 20px; max-width: 80%;}
-    .hero-section p{font-size: 15px; line-height: 18px; max-width: 60%;}
-    .hero-section .hero-container .banner-section{padding: 50px 10px 160px 10px; background: linear-gradient(117deg, #F7F7F7 0%, #f7f7f7b3 0%, #f7f7f700 0%), url(../images/banner-img.png); background-position-x: 10%; background-size: cover; background-repeat: no-repeat; }
+    .hero-section h1{font-size: 15px; margin-bottom: 10px;}
+    .hero-section p{font-size: 13px; line-height: 15px;}
+    .hero-section .hero-container .banner-section{padding: 50px 10px 160px 10px;}
     .topbar-home p{font-size: 14px;}
     .quote-section .quote-block{padding: 30px 50px;}
     .quote-section .quote-block .quote-bold{font-size: 20px;}
@@ -1144,11 +1174,12 @@ a:hover {
     .checkoutlinks::after{display: none;}
     .thankyoutext h1{font-size: 40px;}
     .philmickelson-img-text{bottom: 0; right: 0; width: 100%!important; margin-top: 20px;}
-    .percoachbg{padding-bottom: 230px; background-size: 100% auto; background-position: bottom;}
+    .percoachbg{background: #f7f7f7;}
     .philmickelson-about{background: #f3f4f6;}
     .imgleftmargin{width: 100%!important; margin-left: 0;}
     .visionbg{background-size: cover; background-position: center;}
     .purchasebox{margin: 15px 0;}
+    .hero-section .hero-container .banner-section{background: linear-gradient(117deg, #F7F7F7 0%, #f7f7f7b3 0%, #f7f7f700 0%), url(../images/banner-img.png); background-position: center; background-size: cover;}
     p{font-size: 15px;}
     .bg-image-section p{font-size: 14px;}
     .bg-image-section{padding-block: 35px;}
@@ -1180,4 +1211,12 @@ a:hover {
     .resultsbg h1{font-size: 20px;}
     .stufffocusbg h1{font-size: 20px;}
     .faqbg h1{font-size: 20px;}
+    .philmickelson-img-mob{display: block; margin-top: 20px;}
+    .mobbox{display: flex;}
+    .philmickelson-img-mob img{width: 100%;}
+    .philmickelson-img-text h3{font-size: 12px;}
+    .percoachbg p {font-size: 10px; line-height: 15px;}
+    .checkoutvid h1{font-size: 20px;}
+    .perfectcomplementbg-text h1{font-size: 20px; margin-top: 25px;}
+    .testimonial h5{font-size: 15px;}
 }
